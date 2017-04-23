@@ -273,72 +273,73 @@ p {font-size: 16px;}
 </a>
 </div>
 <div class="container-fluid bg-3 text-center"> 
-  <h3>Where To Find Me?</h3>
+  <h3>สินค้าแนะนำ</h3>
  <div class="row text-center" >
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="paris.jpg" alt="Paris">
-      <p><strong>Paris</strong></p>
-      <p>Fri. 27 November 2015</p>
-      <button class="btn">Buy Tickets</button>
+      <img src="table1.jpg" alt="Paris">
+      <p><strong>ชุดโต๊ะอาหาร 4 ที่นั่ง</strong></p>
+      <p>ราคา 1990 บาท </p>
+      <button class="btn ">ช้อปเลย</button>
+	  
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="newyork.jpg" alt="New York">
-      <p><strong>New York</strong></p>
-      <p>Sat. 28 November 2015</p>
-      <button class="btn">Buy Tickets</button>
+      <img src="table2.jpg" alt="New York">
+      <p><strong>เก้าอี้ไม้</strong></p>
+      <p>ราคา 1,200 บาท</p>
+      <button  class="btn">ช้อปเลย</button>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="sanfran.jpg" alt="San Francisco">
-      <p><strong>San Francisco</strong></p>
-      <p>Sun. 29 November 2015</p>
-      <button class="btn">Buy Tickets</button>
+      <img src="table4.jpg" alt="San Francisco">
+      <p><strong>ชุดโต๊ะกินข้าว 6 ที่นัง</strong></p>
+      <p>ราคา 4,500 บาท</p>
+      <button class="btn">ช้อปเลย</button>
     </div>
   </div>
    <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="paris.jpg" alt="Paris">
-      <p><strong>Paris</strong></p>
-      <p>Fri. 27 November 2015</p>
-      <button class="btn">Buy Tickets</button>
+      <img src="table5.jpg" alt="Paris">
+      <p><strong>ชุดโต๊ะนั่งเล่น</strong></p>
+      <p>ราคา 5,200</p>
+      <button class="btn">ช้อปเลย</button>
     </div>
   </div>
 </div>
 <div class="row text-center">
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="paris.jpg" alt="Paris">
-      <p><strong>Paris</strong></p>
-      <p>Fri. 27 November 2015</p>
-      <button class="btn">Buy Tickets</button>
+      <img src="bed1.jpg" alt="Paris">
+      <p><strong>เตียงนอน 6 ฟุต</strong></p>
+      <p>ราคา 11,000</p>
+      <button class="btn">ช้อปเลย</button>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="newyork.jpg" alt="New York">
-      <p><strong>New York</strong></p>
-      <p>Sat. 28 November 2015</p>
-      <button class="btn">Buy Tickets</button>
+      <img src="sofa1.jpg" 
+      <p><strong>โซฟานั่งเล่น</strong></p>
+      <p>ราคา 6,700 บาท</p>
+      <button class="btn">ช้อปเลย</button>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="sanfran.jpg" alt="San Francisco">
-      <p><strong>San Francisco</strong></p>
-      <p>Sun. 29 November 2015</p>
-      <button class="btn">Buy Tickets</button>
+      <img src="wardrobe.jpg" alt="San Francisco">
+      <p><strong>ตู้เสื้อผ้า</strong></p>
+      <p>ราคา 7,800  บาท</p>
+      <button class="btn">ช้อปเลย</button>
     </div>
   </div>
    <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="paris.jpg" alt="Paris">
-      <p><strong>Paris</strong></p>
-      <p>Fri. 27 November 2015</p>
-      <button class="btn">Buy Tickets</button>
+      <img src="table7.jpg" alt="Paris">
+      <p><strong>โต๊ะทำงาน</strong></p>
+      <p>ราคา 8,990 บาท</p>
+      <button class="btn">ช้อปเลย</button>
     </div>
   </div>
 </div>
