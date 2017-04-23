@@ -11,16 +11,26 @@
 </head>
 <style>
 .bg-1 { 
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
+background: url(images.jpg);
+	background-size:contain; /* Green */
+    color: #333;
+	
 }
 .bg-2 { 
     background-color: #474e5d; /* Dark Blue */
     color: #ffffff;
+	
+}
+.bg-5 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+	margin-bottom:8px;
+	
 }
 .bg-3 { 
-    background-color: #ffffff; /* White */
+    background-color: #EBEBEB; /* White */
     color: #555555;
+	box-shadow: 4px 0 8px 0 rgba(0,0,0,0.8);
 }
 .container-fluid {
     padding-top: 70px;
@@ -33,8 +43,13 @@
     border-radius: 0;
     margin-bottom: 0;
     font-size: 12px;
-    letter-spacing: 5px;
+    letter-spacing: px;
+	width:100%;	
+    z-index:100;
+	animation-delay:2;
+	box-shadow: 4px 0 8px 0 rgba(0,0,0,0.8);
 }
+
 
 .navbar-nav li a:hover {
     color: #1abc9c !important;
@@ -46,23 +61,82 @@
 body {
     font: 20px "Montserrat", sans-serif;
     line-height: 1.8;
-    color: #f5f6f7;
+    color: #000;
 }
 
 p {font-size: 16px;}
 .margin {margin-bottom: 45px;}
 
+.row{
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* Remove border and add padding to thumbnails */
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+	border-radius:5%;
+}
+
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+.carousel-inner img {
+    -webkit-filter: grayscale(40%);
+    filter: grayscale(40%); /* make all photos black and white */ 
+    width: 100%;/* Set width to 100% */
+    margin: auto;
+	
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+
 </style>
-<body>
-<nav class="navbar navbar-default">
+<body>                  
+<nav class="navbar navbar-default" role="navigation" data-spy="affix" data-offset-top="200">
   <div class="container">
-    <div class="navbar-header">
+    <div class="navbar-header" >
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-      <a class="navbar-brand" href="#">we</a>
+      <a class="navbar-brand" href="#">TreeTree</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -74,44 +148,120 @@ p {font-size: 16px;}
   </div>
 </nav>
 <div class="container-fluid bg-1 text-center">
-  <h3>welcome to  website  </h3>
-  <img src="bird.jpg" class="img-responsive img-circle" style="display:inline" alt="Bird">
+  <img src="so1.png" width="280" height="250 class="img-responsive img-circle" style="display:inline" alt="Bird">
   <h3>We am TreeTree</h3>
-</div>
-
-<div class="container-fluid bg-2 text-center">
-  <h3>What Am I?</h3>
-  <p>Lorem ipsum..</p>
-   <div class="col-sm-2">
-   <h5>สินค้าชนิด 1</h5>
-  <hr>
-  </div>
-  <div class="col-sm-2">
-  <h5>สินค้าชนิด 2</h5>
-  <hr>
-  </div>
-  <div class="col-sm-2">
-  <h5>สินค้าชนิด 3</h5>
-  <hr>
-  </div>
-   <div class="col-sm-2">
-   <h5>สินค้าชนิด 4</h5>
-  <hr>
-  </div>
-  <div class="col-sm-2">
-  <h5>สินค้าชนิด 5</h5>
-  <hr>
-  </div>
-  <div class="col-sm-2">
-  <h5>สินค้าชนิด 6</h5>
-  <hr>
-  </div>
+  <h3>welcome to  website  </h3>
 </div>
 
 <div class="container-fluid bg-3 text-center">
   <h3>Where To Find Me?</h3>
   <p>Lorem ipsum..</p>
 </div>
+
+<div class="container-fluid bg-2 text-center">
+   <div class="col-sm-2">
+   <img src="Household-Living-Room-icon.png" width="120" height="120"> 
+   <h4>โต็ะ</h4>
+  </div>
+  <div class="col-sm-2">
+ <img src="Household-Lamp-icon.png" width="120" height="120"> 
+ <h4>โต็ะ</h4>
+  </div>
+  <div class="col-sm-2">
+   <img src="Household-Living-Room-icon.png" width="120" height="120"> 
+   <h4>โต็ะ</h4>
+  </div>
+   <div class="col-sm-2">
+    <img src="Household-Living-Room-icon.png" width="120" height="120"> 
+    <h4>โต็ะ</h4>
+ 
+  </div>
+  <div class="col-sm-2">
+   <img src="Household-Living-Room-icon.png" width="120" height="120"> 
+   <h4>โต็ะ</h4>
+  
+  </div>
+  <div class="col-sm-2">
+   <img src="Household-Living-Room-icon.png" width="120" height="120"> 
+   <h4>โต็ะ</h4>
+  
+  </div>
+</div>  
+  </div>
+  
+<div class="container-fluid bg-5 text-center" >
+   <div class="col-sm-2">
+    <img src="Baby-Crib-icon.png" width="120" height="120">
+    <h4>โต็ะ</h4> 
+  </div>
+  <div class="col-sm-2">
+ <img src="Household-Living-Room-icon.png" width="120" height="120">
+ <h4>โต็ะ</h4> 
+  </div>
+  <div class="col-sm-2">
+   <img src="Household-Lamp-icon.png" width="120" height="120"> 
+   <h4>โต็ะ</h4>
+  </div>
+   <div class="col-sm-2">
+    <img src="Baby-Crib-icon.png" width="120" height="120"> 
+    <h4>เตียง</h4>
+  </div>
+  <div class="col-sm-2">
+  <img src="Household-Living-Room-icon.png" width="120" height="120"> 
+  <h4>ตู้</h4>
+  </div>
+  <div class="col-sm-2">
+  <img src="Baby-Crib-icon.png" width="120" height="120"> 
+  <h4>โต็ะ</h4>
+  </div>
+</div>
+</div>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="ban.jpg"alt="New York">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>The atmosphere in New York is lorem ipsum.</p>
+      </div> 
+    </div>
+
+    <div class="item">
+      <img src="Gur07.jpg" alt="Chicago">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago - A night we won't forget.</p>
+      </div> 
+    </div>
+
+    <div class="item">
+      <img src="Guru.jpg" alt="Los Angeles">
+      <div class="carousel-caption">
+        <h3>LA</h3>
+        <p>Even though the traffic was a mess, we had the best time.</p>
+      </div> 
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="container"  style="padding-top:10px"></div>
 <div class="container-fluid bg-2 text-center">
   <h3>What Am I?</h3>
   <p>Lorem ipsum..</p>
@@ -121,24 +271,76 @@ p {font-size: 16px;}
 </div>
 <div class="container-fluid bg-3 text-center"> 
   <h3>Where To Find Me?</h3>
-  <div class="row">
-  <div class="col-sm-12">
-  <hr>
+ <div class="row text-center" >
+  <div class="col-sm-3">
+    <div class="thumbnail">
+      <img src="paris.jpg" alt="Paris">
+      <p><strong>Paris</strong></p>
+      <p>Fri. 27 November 2015</p>
+      <button class="btn">Buy Tickets</button>
+    </div>
   </div>
-    <div class="col-sm-4">
-      <p>Lorem ipsum..</p>
-      <img src="birds1.jpg" class="img-responsive" style="width:100%" alt="Image">
+  <div class="col-sm-3">
+    <div class="thumbnail">
+      <img src="newyork.jpg" alt="New York">
+      <p><strong>New York</strong></p>
+      <p>Sat. 28 November 2015</p>
+      <button class="btn">Buy Tickets</button>
     </div>
-    <div class="col-sm-4">
-      <p>Lorem ipsum..</p>
-<img src="birds2.jpg" class="img-responsive" style="width:100%" alt="Image">
+  </div>
+  <div class="col-sm-3">
+    <div class="thumbnail">
+      <img src="sanfran.jpg" alt="San Francisco">
+      <p><strong>San Francisco</strong></p>
+      <p>Sun. 29 November 2015</p>
+      <button class="btn">Buy Tickets</button>
     </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum..</p>
-      <img src="birds3.jpg" alt="Image">
+  </div>
+   <div class="col-sm-3">
+    <div class="thumbnail">
+      <img src="paris.jpg" alt="Paris">
+      <p><strong>Paris</strong></p>
+      <p>Fri. 27 November 2015</p>
+      <button class="btn">Buy Tickets</button>
     </div>
   </div>
 </div>
+<div class="row text-center">
+  <div class="col-sm-3">
+    <div class="thumbnail">
+      <img src="paris.jpg" alt="Paris">
+      <p><strong>Paris</strong></p>
+      <p>Fri. 27 November 2015</p>
+      <button class="btn">Buy Tickets</button>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="thumbnail">
+      <img src="newyork.jpg" alt="New York">
+      <p><strong>New York</strong></p>
+      <p>Sat. 28 November 2015</p>
+      <button class="btn">Buy Tickets</button>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="thumbnail">
+      <img src="sanfran.jpg" alt="San Francisco">
+      <p><strong>San Francisco</strong></p>
+      <p>Sun. 29 November 2015</p>
+      <button class="btn">Buy Tickets</button>
+    </div>
+  </div>
+   <div class="col-sm-3">
+    <div class="thumbnail">
+      <img src="paris.jpg" alt="Paris">
+      <p><strong>Paris</strong></p>
+      <p>Fri. 27 November 2015</p>
+      <button class="btn">Buy Tickets</button>
+    </div>
+  </div>
+</div>
+</div>
+
 <footer class="container-fluid bg-4 text-center">
   <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
 </footer>
