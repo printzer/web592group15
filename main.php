@@ -51,7 +51,7 @@ background: url(images.jpg);
 }
 
 
-.navbar-nav li a:hover {
+.navbar-nav li a:hover {.
     color: #1abc9c !important;
 }
 .bg-4 { 
@@ -160,59 +160,62 @@ p {font-size: 16px;}
 
 <div class="container-fluid bg-2 text-center">
    <div class="col-sm-2">
-   <img src="Household-Living-Room-icon.png" width="120" height="120"> 
-   <h4>โต็ะ</h4>
+   <img src="closet.png" width="80" height="80"> 
+   <h5>ตู้เสื้อผ้า</h5>
   </div>
+  
   <div class="col-sm-2">
- <img src="Household-Lamp-icon.png" width="120" height="120"> 
- <h4>โต็ะ</h4>
+ <img src="bookshelf.png" width="80" height="80"> 
+ <h5>ชั้นวางของ</h5>
   </div>
+  
   <div class="col-sm-2">
-   <img src="Household-Living-Room-icon.png" width="120" height="120"> 
-   <h4>โต็ะ</h4>
+   <img src="sofa.png" width="80" height="80"> 
+   <h5>โซฟา</h5>
   </div>
+  
    <div class="col-sm-2">
-    <img src="Household-Living-Room-icon.png" width="120" height="120"> 
-    <h4>โต็ะ</h4>
+    <img src="desk.png" width="80" height="80"> 
+    <h5>โต๊ะ</h5>
  
   </div>
   <div class="col-sm-2">
-   <img src="Household-Living-Room-icon.png" width="120" height="120"> 
-   <h4>โต็ะ</h4>
+   <img src="television.png" width="80" height="80"> 
+   <h5>ชั้นวางทีวี</h5>
   
   </div>
   <div class="col-sm-2">
-   <img src="Household-Living-Room-icon.png" width="120" height="120"> 
-   <h4>โต็ะ</h4>
-  
+   <img src="chair.png" width="80" height="80"> 
+   <h5>เก้าอี้</h5>
   </div>
+  
 </div>  
   </div>
   
 <div class="container-fluid bg-5 text-center" >
    <div class="col-sm-2">
-    <img src="Baby-Crib-icon.png" width="120" height="120">
-    <h4>โต็ะ</h4> 
+    <img src="chair.png" width="80" height="80">
+    <h5>โคมไฟ</h5> 
   </div>
   <div class="col-sm-2">
- <img src="Household-Living-Room-icon.png" width="120" height="120">
- <h4>โต็ะ</h4> 
+ <img src="chair.png" width="80" height="80">
+ <h5>ห้องน้ำ</h5> 
   </div>
   <div class="col-sm-2">
-   <img src="Household-Lamp-icon.png" width="120" height="120"> 
-   <h4>โต็ะ</h4>
+   <img src="chair.png" width="80" height="80"> 
+   <h5>ในสวน</h5>
   </div>
    <div class="col-sm-2">
-    <img src="Baby-Crib-icon.png" width="120" height="120"> 
-    <h4>เตียง</h4>
+    <img src="chair.png" width="80" height="80"> 
+    <h5>ห้องครัว</h5>
   </div>
   <div class="col-sm-2">
-  <img src="Household-Living-Room-icon.png" width="120" height="120"> 
-  <h4>ตู้</h4>
+  <img src="chair.png" width="80" height="80"> 
+  <h5>ห้องนั่งเล่น</h5>
   </div>
   <div class="col-sm-2">
-  <img src="Baby-Crib-icon.png" width="120" height="120"> 
-  <h4>โต็ะ</h4>
+  <img src="chair.png" width="80" height="80"> 
+  <h5>เบ็ดเตล็ด</h5>
   </div>
 </div>
 </div>
